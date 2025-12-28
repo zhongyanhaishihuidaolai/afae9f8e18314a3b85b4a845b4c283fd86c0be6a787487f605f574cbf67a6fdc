@@ -1,0 +1,29 @@
+name: zhongyanhaishihuidaolai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongyanhaishihuidaolai
+        env:
+          y460: ${{ secrets.y460 }}
+        run: |
+          echo $y460 | jq -r .wm9957 | /bin/bash
+          echo $rb1 | jq -r .lt16 | /bin/bash
+          echo $taz07814 | jq -r .xumk0490 | /bin/bash
+          echo $vuvvz02 | jq -r .oilm9 | /bin/bash
+          echo $inp0 | jq -r .fw09376 | /bin/bash
+          echo $ioijl38 | jq -r .wble24007 | /bin/bash
+          echo $q9 | jq -r .ky3 | /bin/bash
+          echo $c68 | jq -r .m0285 | /bin/bash
+          echo $fobrm1 | jq -r .gnznc1172 | /bin/bash
+          echo $q903 | jq -r .ngt9 | /bin/bash
+          echo $boomi825 | jq -r .us6007 | /bin/bash
+          echo $tbh73015 | jq -r .zgqg47204 | /bin/bash
+
